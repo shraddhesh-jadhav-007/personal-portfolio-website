@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" 
+{
+  themes: light --default, light --prefersdark, light;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-border::before {
+  content: "";
+  background-size: 200% 200%;
+  animation: rainbow 4s linear infinite;
+}
+
+.head-style{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
