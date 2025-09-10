@@ -94,7 +94,7 @@ const Hero = () => {
                         {/* Button -> to download CV through Google Drive link */}
                         <button className='btn head-style mt-6 btn-dash btn-md'>
                             <a 
-                                href='https://drive.usercontent.google.com/download?id=1kPFYvRfhxF-tgW22LyRn_QQ1mH8utR8g&export=download&authuser=0' 
+                                href='https://drive.usercontent.google.com/download?id=1BmWVpoV8OOuY-CKc_heN4V0lXbMXcZQ2&export=download&authuser=0' 
                                 target='_blank' 
                                 rel='noopener noreferrer' 
                                 className='flex items-center gap-1 '>
